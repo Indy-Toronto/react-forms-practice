@@ -1,75 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
 
 *{
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-.box{
-    box-shadow: 0 .5px 5px rgb(0 0 0 / 0.2);
-    height: 600px;
-    width: 450px;
-    position: absolute;
-    top:  40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+    font-family: 'Sora';
 
 }
 
 
-h2{
-    margin: 0;
-    letter-spacing: .2mm;
-    margin-right: 20px;
-
-}
-
-
-p{
-    font-size: 12px;
-    margin-right: 120px;
-}
-
-span{
-    color: blue;
-}
-
-/* First four input fields */
-.first-four{
-
-    border-radius: 5px;
-    border: .5px solid grey;
-    /* margin:  10px 0; */
-     width: 300px;
-    height: 35px;
-
-}
-
-label{
-    
-    font-size: 12px;
-}
-
-/* checkbox division */
-.div-check-box{
+/* whole page starts here */
+.landing-page{
     display: flex;
     flex-direction: row;
 }
 
-.check-box{
+.blue-part{
+    height: 100vh;
+    width: 50%;
+    background: rgb(45, 13, 255);
+    border-radius: 10px;
+    color: white;
+}
+
+h3{
+    font-weight: 400;
+}
+
+h1{
+    font-weight: 500;
+}
+
+.para-part{
+    font-weight: 200;
+    color: rgb(191, 184, 184);
 }
 
 
+/* Card inside the Card-div */
+.card-div{
+    height: 13vh;
+    width: 50%;
+    background: rgb(26, 0, 220);
+    border-radius: 10px;
 
-button{
-    width: 250px;
-    height: 45px;
-    border-radius: 5px;
-    background: rgb(63, 63, 220);
-    border: none;
-    color: white
+}
+
+.card-para{
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(202, 199, 199);
+}
+
+/* image in card */
+img{
+    height: 10px;
+    width: 10px;
 }
