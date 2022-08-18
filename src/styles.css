@@ -21,13 +21,15 @@
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    
 }
 
 .blue-h1-p{
-    margin-top: 70px;
-    margin-bottom: 100px;
+    margin-top: 13vh;
+    margin-bottom: 22vh;
 }
+
+
 
 h3{
     font-weight: 400;
@@ -51,7 +53,14 @@ h1{
     width: 80%;
     background: rgb(26, 0, 220);
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
 
+}
+
+.card-para, .photo-para{
+    margin-left: 15px;
 }
 
 .card-para{
@@ -62,8 +71,8 @@ h1{
 
 /* image in card */
 img{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     border-radius: 5px;
 }
 
@@ -81,4 +90,49 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.blue-card{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.company, .blue-h1-p{
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+
+
+.card-div,.rounded{
+   align-self: center;
+}
+
+
+
+.photo-para{
+    height: 40px;
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.name{
+   
+    margin-left: 2vh;
+ 
+}
+
+.artist-name{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.prof{
+    font-size: 10px;
+   color: rgb(162, 157, 157);
 }
